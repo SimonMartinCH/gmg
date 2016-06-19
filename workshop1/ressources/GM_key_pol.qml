@@ -20,23 +20,26 @@
   <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
     <rules key="{d8f9b450-3c78-4f36-a1e2-8320afa18d2f}">
       <rule key="{14d51bba-cee9-4ef3-ad83-e5bb3bbf3442}" symbol="0"/>
-      <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'ANT'" key="{48daafd6-9600-400f-9a5d-f28da8efaf48}" symbol="1" label="accumulation"/>
+      <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'ANT'" key="{48daafd6-9600-400f-9a5d-f28da8efaf48}" symbol="1" label="anthropogenic accumulation"/>
       <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'FLU'" key="{e4e4bbb0-1cde-4079-93dd-c3c3c25bbedd}" symbol="2" label="fluvial accumulation"/>
-      <rule filter="&quot;FORM&quot; = 'alluvial fan'" key="{7eae5408-f420-4924-b11c-96163849b764}" symbol="3" label="alluvial fan"/>
-      <rule filter="&quot;FORM&quot; = 'glacier'" key="{94344d61-0dfe-4cc5-9757-fec333d2b0f5}" symbol="4" label="glacier"/>
-      <rule filter="&quot;FORM&quot; = 'glacier covered'" key="{f4fd39e2-d605-4f1b-aade-f41f0b63c5a7}" symbol="5" label="glacier covered"/>
-      <rule filter="&quot;FORM&quot; = 'karren covered'" key="{f3d88232-a135-49d9-ab3e-7a01f71a809d}" symbol="6" label="karren covered"/>
-      <rule filter="&quot;FORM&quot; = 'moraine'" key="{d8e302e3-246a-4bda-9384-4ab80ecf5f0a}" symbol="7" label="moraine"/>
-      <rule filter="&quot;FORM&quot; = 'neve'" key="{7cac9355-9c6b-40a9-88d4-46991caa5aa7}" symbol="8" label="neve"/>
-      <rule filter="&quot;FORM&quot; = 'rockfall'" key="{fbf9f5b1-899a-4a22-adc5-fddf626287b2}" symbol="9" label="rockfall"/>
-      <rule filter="&quot;FORM&quot; = 'rockglacier'" key="{64ab0b48-fa9c-4c1a-92c1-6d945dfafe11}" symbol="10" label="rockglacier"/>
-      <rule filter="&quot;FORM&quot; = 'rockslide'" key="{68e88353-3bca-45e8-a514-13c1552b692e}" symbol="11" label="rockslide"/>
-      <rule filter="&quot;FORM&quot; = 'scree'" key="{854cbc39-7d0a-4730-ac4c-7d975396385c}" symbol="12" label="scree"/>
-      <rule filter="&quot;FORM&quot; = 'scree covered'" key="{b4088968-925d-4ab4-bd40-aa45223a076e}" symbol="13" label="scree covered"/>
-      <rule filter="&quot;FORM&quot; = 'soil on bedrock'" key="{724ceda2-6bf2-4011-b22c-566df54019db}" symbol="14" label="soil on bedrock"/>
-      <rule filter="&quot;FORM&quot; = 'till'" key="{b1c30572-6a87-4f94-a1d8-ce630241f1e7}" symbol="15" label="till"/>
-      <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'ORG'" key="{b7e2cb9d-d97f-4118-97cf-fb7cbe0e829e}" symbol="16" label="organogenous accumulation"/>
-      <rule key="{ab431938-20d1-4bb0-a9fd-9b626f64def1}" symbol="17" label="erosive area"/>
+      <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'GRA'" key="{f5214c58-021d-465a-8c07-0cfae9afebb1}" symbol="3" label="gravitative accumulation"/>
+      <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'PGL'" key="{39c73080-2a36-4799-88a0-81b180ca54a4}" symbol="4" label="periglacial accumulation"/>
+      <rule filter="&quot;FORM&quot; = 'alluvial fan'" key="{7eae5408-f420-4924-b11c-96163849b764}" symbol="5" label="alluvial fan"/>
+      <rule filter="&quot;FORM&quot; = 'glacier'" key="{94344d61-0dfe-4cc5-9757-fec333d2b0f5}" symbol="6" label="glacier"/>
+      <rule filter="&quot;FORM&quot; = 'glacier covered'" key="{f4fd39e2-d605-4f1b-aade-f41f0b63c5a7}" symbol="7" label="glacier covered"/>
+      <rule filter="&quot;FORM&quot; = 'karren covered'" key="{f3d88232-a135-49d9-ab3e-7a01f71a809d}" symbol="8" label="karren covered"/>
+      <rule filter="&quot;FORM&quot; = 'moraine'" key="{d8e302e3-246a-4bda-9384-4ab80ecf5f0a}" symbol="9" label="moraine"/>
+      <rule filter="&quot;FORM&quot; = 'neve'" key="{7cac9355-9c6b-40a9-88d4-46991caa5aa7}" symbol="10" label="neve"/>
+      <rule filter="&quot;FORM&quot; = 'rockfall'" key="{fbf9f5b1-899a-4a22-adc5-fddf626287b2}" symbol="11" label="rockfall"/>
+      <rule filter="&quot;FORM&quot; = 'rockglacier'" key="{64ab0b48-fa9c-4c1a-92c1-6d945dfafe11}" symbol="12" label="rockglacier"/>
+      <rule filter="&quot;FORM&quot; = 'rockslide'" key="{68e88353-3bca-45e8-a514-13c1552b692e}" symbol="13" label="rockslide"/>
+      <rule filter="&quot;FORM&quot; = 'scree'" key="{854cbc39-7d0a-4730-ac4c-7d975396385c}" symbol="14" label="scree"/>
+      <rule filter="&quot;FORM&quot; = 'scree covered'" key="{b4088968-925d-4ab4-bd40-aa45223a076e}" symbol="15" label="scree covered"/>
+      <rule filter="&quot;FORM&quot; = 'soil on bedrock'" key="{724ceda2-6bf2-4011-b22c-566df54019db}" symbol="16" label="soil on bedrock"/>
+      <rule filter="&quot;FORM&quot; = 'till'" key="{b1c30572-6a87-4f94-a1d8-ce630241f1e7}" symbol="17" label="till"/>
+      <rule filter="&quot;FORM&quot; = 'accumulation' AND &quot;PROCESS&quot; = 'ORG'" key="{b7e2cb9d-d97f-4118-97cf-fb7cbe0e829e}" symbol="18" label="organogenous accumulation"/>
+      <rule checkstate="0" key="{ab431938-20d1-4bb0-a9fd-9b626f64def1}" symbol="19" label="erosive area"/>
+      <rule filter=" &quot;FORM&quot;  =  'deposit of rockfall on glacier' " key="{29122d25-cb60-4fcc-8319-14b6ef472f36}" symbol="20" label="deposit of rockfall on glacier"/>
     </rules>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -72,7 +75,7 @@
       <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="79,231,33,255"/>
+          <prop k="color" v="252,252,251,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -115,6 +118,110 @@
           <prop k="outline_width_unit" v="MM"/>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="@11@1">
             <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="30"/>
+              <prop k="color" v="218,121,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="equilateral_triangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="218,121,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="230,121,242,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="207,0,230,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+        <layer pass="0" class="PointPatternFill" locked="0">
+          <prop k="displacement_x" v="2"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="displacement_x_unit" v="MM"/>
+          <prop k="displacement_y" v="0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="displacement_y_unit" v="MM"/>
+          <prop k="distance_x" v="4"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_x_unit" v="MM"/>
+          <prop k="distance_y" v="4"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_y_unit" v="MM"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@12@1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="207,0,230,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="pentagon"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="207,0,230,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.4"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="242,206,121,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="218,121,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+        <layer pass="0" class="PointPatternFill" locked="0">
+          <prop k="displacement_x" v="0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="displacement_x_unit" v="MM"/>
+          <prop k="displacement_y" v="0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="displacement_y_unit" v="MM"/>
+          <prop k="distance_x" v="4"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_x_unit" v="MM"/>
+          <prop k="distance_y" v="4"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_y_unit" v="MM"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@13@1">
+            <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="60"/>
               <prop k="angle_dd_active" v="1"/>
               <prop k="angle_dd_expression" v=""/>
@@ -140,7 +247,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="242,206,121,255"/>
@@ -172,7 +279,7 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="@12@1">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="@14@1">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="2;1"/>
@@ -193,7 +300,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="242,206,121,255"/>
@@ -222,7 +329,7 @@
           <prop k="distance_y_unit" v="MM"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@13@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@15@1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="230,230,126,255"/>
@@ -245,36 +352,6 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="230,230,126,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="no"/>
-          <prop k="outline_width" v="0.26"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="170,157,242,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="46,0,230,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.1"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-      </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -291,6 +368,36 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="170,157,242,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="46,0,230,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.1"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="18">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="230,230,126,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="19">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="228,35,113,255"/>
@@ -320,7 +427,89 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="20">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="170,157,242,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="46,0,230,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.01"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+        <layer pass="0" class="PointPatternFill" locked="0">
+          <prop k="displacement_x" v="2"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="displacement_x_unit" v="MM"/>
+          <prop k="displacement_y" v="0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="displacement_y_unit" v="MM"/>
+          <prop k="distance_x" v="4"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_x_unit" v="MM"/>
+          <prop k="distance_y" v="4"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_y_unit" v="MM"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@20@1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="218,121,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="equilateral_triangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </layer>
+      </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="242,206,121,255"/>
+          <prop k="joinstyle" v="round"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,204,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="230,121,242,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="98,217,98,255"/>
@@ -335,7 +524,7 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="217,255,255,255"/>
@@ -350,7 +539,7 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="217,255,255,255"/>
@@ -379,7 +568,7 @@
           <prop k="distance_y_unit" v="MM"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@5@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@7@1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="0,0,0,0"/>
@@ -402,7 +591,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="121,101,235,255"/>
@@ -417,7 +606,7 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="170,157,242,255"/>
@@ -446,7 +635,7 @@
           <prop k="distance_y_unit" v="MM"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@7@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@9@1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="0,0,0,0"/>
@@ -462,73 +651,6 @@
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
               <prop k="size" v="0.5"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="90,171,214,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.26"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="242,206,121,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="218,121,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-        <layer pass="0" class="PointPatternFill" locked="0">
-          <prop k="displacement_x" v="0"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="displacement_x_unit" v="MM"/>
-          <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="displacement_y_unit" v="MM"/>
-          <prop k="distance_x" v="4"/>
-          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="distance_x_unit" v="MM"/>
-          <prop k="distance_y" v="4"/>
-          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@9@1">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="30"/>
-              <prop k="color" v="218,121,0,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="equilateral_triangle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="218,121,0,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
