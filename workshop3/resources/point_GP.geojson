@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "DESCR": "Very large parking, but with <i>cows</i> around", "ICON": "parc" }, "geometry": { "type": "Point", "coordinates": [ 7.111027664768269, 46.25271236444803 ] } },
+{ "type": "Feature", "properties": { "DESCR": "<b>The ghost bus stop<\/b><br>There is no bus stopping here!", "ICON": "bus" }, "geometry": { "type": "Point", "coordinates": [ 7.107204911854304, 46.247457895040924 ] } }
+]
+}
