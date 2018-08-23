@@ -42,6 +42,9 @@ Angle value is used by some symbologies: symbol orientation for areal or punctua
 
 ## >>resources<<
 .CSV style store the key texts in UTF-8 (to be restored in Propriétés de la couche / Formulaire d'attribut)
+
 GM_key_colors.gpl store the specific colors - one for each process (to be restored in Projet / Propriétés du projet / Style par défaut / Couleurs du projet)
+
 !!-outdated-!! GM_key_symbols.xml store the whole symbology (to be restored in Projet / Propriétés du projet / Style par défaut)
+
 workspace.qgs is an empty project file with the 3 layers and defaults styles and colors loaded
