@@ -2,7 +2,7 @@
 # LICENSE
 ///////
 
-La version pour QuantumGIS de la légende pour la cartographie géomorphologie a été réalisée par Simon Martin, du bureau d'étude Relief, sur la base de la brochure éditée par l'Institut de Géographie et Durabilité de l'Université de Lausanne (voir https://www.unil.ch/igd/fr/home/menuinst/la-recherche/eau-et-geopatrimoine/axes-de-recherche/la-legende-geomorphologique-de-lunil.html).
+La version pour QuantumGIS de la légende pour la cartographie géomorphologie a été réalisée par Simon Martin, du bureau d'étude Relief, sur la base de la brochure éditée par l'Institut de Géographie et Durabilité de l'Université de Lausanne (voir https://www.unil.ch/igd/fr/home/menuinst/recherche/groupes-de-recherche/eau-et-geopatrimoine/la-legende-geomorphologique-de-lunil.html).
 
 La dernière version est disponible sur https://github.com/SimonMartinCH/gmg/workshop1/ressources/
 
