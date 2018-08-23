@@ -2,20 +2,22 @@ GIMP Palette
 Name: QGIS Palette
 Columns: 4
 #
-153 255 255	#99ffff
-217 255 255	#d9ffff
- 48 218 242	#30daf2
-  0 204   0	#00cc00
- 98 217  98	#62d962
-218 121   0	#da7900
-242 206 121	#f2ce79
-230 230 126	#e6e67e
-  0  92 153	#005c99
- 89 143 179	#598fb3
- 46   0 230	#2e00e6
-170 157 242	#aa9df2
-128 128 128	#808080
-191 191 191	#bfbfbf
-  0 255 153	#00ff99
-102 255 191	#66ffbf
-255   0   0	#ff0000
+153 255 255	hydro glacier
+217 255 255	hydro glacier surf
+ 48 218 242	hydro
+  0 204   0	fluvial
+ 98 217  98	fluvial surf
+218 121   0	gravitative
+242 206 121	gravitative surf
+230 230 126	organic
+  0  92 153	lacustrine
+ 89 143 179	lacustrine surf
+ 46   0 230	glacial
+170 157 242	glacial surf
+128 128 128	anthropic
+191 191 191	anthropic surf
+  0 255 153	karstic
+102 255 191	karstic surf
+255   0   0	structural
+204  69 162	periglacial
+230 121 242	periglacial surf
