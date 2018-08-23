@@ -1,0 +1,43 @@
+VALUE,DESCRIPTION
+fault,faille
+supposed fault,faille supposée
+rock scarp big,grand escarpement
+rock scarp small,petit escarpement
+covered scarp big,grand escarpement couvert
+covered scarp small,petit escarpement couvert
+rock step,gradin rocheux
+covered rock step,gradin rocheux couvert
+fault escarpment,escarpement de faille
+anticline axis,axe anticlinal
+syncline axis,axe synclinal
+transverse fault,décrochement
+stream,cours d’eau
+intermittent stream,cours d’eau temporaire
+ice fall,paroi de glace
+gorge,gorge
+edge,rebord d’érosion
+terrace edge,rebord de terrasse
+channel,chenal ou tracé souterrain
+paleochannel,ancien chenal
+alluvial fan direction,cône de déjection (direction)
+gully,ravin
+possible underground channel,tracé souterrain supposé
+trimline,trimline
+striae direction,direction des stries
+moraine crest big,grand cordon morainique
+moraine crest small,petit cordon morainique
+esker,esker
+fluvio-glacial direction,épandage fluvio-glaciaire (direction)
+gelifluction,forme de gélifluxion
+avalanche deposit,dépôt d’avalanche
+avalanche impact zone,zone de souffle d’avalanche
+snow moraine,moraine de névé
+river levee,endiguement de rivière
+dump,décharge
+drainage,drainage
+irrigation channel,canal d’irrigation
+abandoned irrigation channel,canal d’irrigation abandonné
+avalanche protection,digue paravalanche
+avalanche reservoir,bassin d’accumulation d’avalanche
+concrete dyke,digue en béton
+river sill,seuil sur cours d’eau
